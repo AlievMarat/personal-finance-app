@@ -1,0 +1,29 @@
+.budgets {
+  background: #fff;
+  border-radius: 12px;
+  &__container {
+    padding: 24px 20px;
+    margin: auto;
+  }
+  &__wrapper {
+    display: flex;
+    gap: 16px;
+    flex: 1;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .budgets {
+    background: #fff;
+    border-radius: 12px;
+    &__container {
+      padding: 24px 20px;
+    }
+    &__wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      margin: auto;
+    }
+  }
+}

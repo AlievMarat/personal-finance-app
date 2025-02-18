@@ -1,0 +1,28 @@
+.home-reccuring-bills {
+  background-color: white;
+  border-radius: 12px;
+  &__container {
+    padding: 20px 24px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .reccuring-item {
+    padding: 20px 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    background: #2c2014;
+    &__name {
+      color: #696868;
+    }
+    &__info {
+      display: flex;
+    }
+    &__total {
+      font-weight: bold;
+    }
+  }
+}

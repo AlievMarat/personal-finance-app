@@ -1,0 +1,34 @@
+.home-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-main > *:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.home-main > *:nth-child(even):not(:last-child) {
+  margin-bottom: 24px;
+}
+
+@media (min-width: 1440px) {
+  .home-main {
+    display: grid;
+    //grid-template-columns: 2fr 1fr;
+    //grid-template-rows: 1fr 2fr 1fr 2fr;
+    grid-template-areas: "pots budgets"; /* Задаем области */
+    gap: 16px; /* отступы между элементами */
+  }
+  .home-main > * {
+    height: auto; /* Элементы будут иметь высоту, равную содержимому */
+  }
+  .pots {
+    height: auto;
+    display: inline;
+    grid-area: pots; /* Назначаем область для этого элемента */
+  }
+
+  .budgets {
+    grid-area: budgets; /* Назначаем область для этого элемента */
+  }
+}

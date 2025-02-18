@@ -1,0 +1,38 @@
+.micro-graph--container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  flex: 1;
+  .micro-graph--item {
+    display: inline-flex;
+    flex: 1;
+    align-items: center;
+    gap: 16px;
+    min-width: calc(50% - 16px);
+  }
+  .micro-graph--title {
+    padding-bottom: 4px;
+    font-size: 14px;
+  }
+  .micro-graph--color {
+    padding: 43px 2px 0 2px;
+    border-radius: 8px;
+  }
+  .micro-graph--target {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+@media (min-width: 768px) {
+  .budgets {
+    .micro-graph--container {
+      display: inline-flex;
+      justify-content: center;
+      flex-direction: column;
+      .micro-graph--item {
+        display: inline-flex !important;
+        width: auto;
+      }
+    }
+  }
+}

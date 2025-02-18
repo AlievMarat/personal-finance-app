@@ -1,0 +1,46 @@
+.pots {
+  background: white;
+  border-radius: 12px;
+  &-container {
+    padding: 24px 20px;
+  }
+  .total-saved {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #f8f4f0;
+    padding: 20px 145px 20px 16px;
+    margin-bottom: 20px;
+    min-width: 247px;
+    flex: 1;
+    gap: 22px;
+    &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+      font-size: 14px;
+      width: auto;
+    }
+    &__amount {
+      font-weight: bold;
+      font-size: 32px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .pots {
+    .total-saved {
+      margin-bottom: 0;
+      padding: 20px 89px 20px 16px;
+    }
+    &-container {
+      padding: 32px;
+    }
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

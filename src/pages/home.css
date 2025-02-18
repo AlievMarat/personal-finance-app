@@ -1,0 +1,14 @@
+.home {
+  background: #f8f4f0;
+}
+.home .container {
+  min-width: 343px;
+  padding: 0 16px 0 16px;
+}
+
+@media (min-width: 768px) {
+  .home .container {
+    min-width: 688px;
+    padding: 0 40px 0 40px;
+  }
+}/*# sourceMappingURL=home.css.map */

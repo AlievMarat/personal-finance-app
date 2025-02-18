@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.home-transactions {
+  padding: 0 16px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.home-transactions__container {
+  padding: 24px 20px 24px;
+}
+.home-transactions hr {
+  display: grid;
+  grid-column: span 2;
+  border: 1px solid #f2f2f2;
+  width: 100%;
+}
+.home-transactions__cards {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.home-transactions__amount {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+.home-transactions__amount--green {
+  color: #277c78;
+  font-weight: bold;
+  font-size: 14px;
+}
+.home-transactions__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+.home-transactions__card {
+  display: grid;
+  grid-template-columns: auto auto; /* Две колонки */
+  grid-template-rows: auto auto; /* Две строки */
+  row-gap: 20px;
+  grid-auto-flow: row;
+  justify-content: space-between;
+  justify-items: start; /* Выравнивание элементов внутри ячеек */
+}
+.home-transactions__user {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.home-transactions__info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .home-transactions__container {
+    padding: 32px 20px 32px;
+  }
+  .home-transactions__avatar {
+    width: 40px;
+    height: 40px;
+  }
+}/*# sourceMappingURL=hometransactions.css.map */

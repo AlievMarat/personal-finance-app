@@ -1,0 +1,67 @@
+.home-transactions {
+  padding: 0 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  &__container {
+    padding: 24px 20px 24px;
+  }
+  hr {
+    display: grid;
+    grid-column: span 2;
+    border: 1px solid #f2f2f2;
+    width: 100%;
+  }
+  &__cards {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  &__amount {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    &--green {
+      color: #277c78;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+
+  &__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+  }
+  &__card {
+    display: grid;
+    grid-template-columns: auto auto; /* Две колонки */
+    grid-template-rows: auto auto; /* Две строки */
+    row-gap: 20px;
+    grid-auto-flow: row;
+    justify-content: space-between;
+    justify-items: start; /* Выравнивание элементов внутри ячеек */
+  }
+  &__user {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .home-transactions {
+    &__container {
+      padding: 32px 20px 32px;
+    }
+    &__avatar {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

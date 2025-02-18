@@ -1,0 +1,30 @@
+.budgets {
+  background: #fff;
+  border-radius: 12px;
+}
+.budgets__container {
+  padding: 24px 20px;
+  margin: auto;
+}
+.budgets__wrapper {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .budgets {
+    background: #fff;
+    border-radius: 12px;
+  }
+  .budgets__container {
+    padding: 24px 20px;
+  }
+  .budgets__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+  }
+}/*# sourceMappingURL=budgets.css.map */

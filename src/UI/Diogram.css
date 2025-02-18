@@ -1,0 +1,19 @@
+.diogram {
+  margin: 0 auto;
+  min-width: 303px;
+}
+.diogram__sum {
+  padding-top: 8px;
+}
+
+@media (min-width: 768px) {
+  .diogram {
+    margin: 0 auto;
+    min-width: 303px;
+    display: flex;
+    flex: 3;
+  }
+  .diogram__sum {
+    padding-top: 8px;
+  }
+}/*# sourceMappingURL=Diogram.css.map */
