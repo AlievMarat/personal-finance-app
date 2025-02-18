@@ -12,12 +12,19 @@
 }
 
 @media (min-width: 1440px) {
+  .home-main > *:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
+  .home-main > *:nth-child(even):not(:last-child) {
+    margin-bottom: 0px;
+  }
   .home-main {
     display: grid;
-    //grid-template-columns: 2fr 1fr;
-    //grid-template-rows: 1fr 2fr 1fr 2fr;
+    align-items: stretch;
     grid-template-areas: "pots budgets"; /* Задаем области */
-    gap: 16px; /* отступы между элементами */
+    gap: 24px; /* отступы между элементами */
+    margin: 0;
   }
   .home-main > * {
     height: auto; /* Элементы будут иметь высоту, равную содержимому */

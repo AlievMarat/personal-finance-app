@@ -11,4 +11,17 @@
     min-width: 688px;
     padding: 0 40px 0 40px;
   }
+}
+@media (min-width: 1440px) {
+  .home {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .home .container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 688px;
+    padding: 0 40px 0 40px;
+  }
 }/*# sourceMappingURL=home.css.map */

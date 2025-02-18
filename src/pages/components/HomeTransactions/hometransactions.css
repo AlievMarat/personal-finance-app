@@ -63,4 +63,13 @@
     width: 40px;
     height: 40px;
   }
+}
+@media (min-width: 1440px) {
+  .home-transactions__container {
+    padding: 32px 32px 32px;
+  }
+  .home-transactions__avatar {
+    width: 40px;
+    height: 40px;
+  }
 }/*# sourceMappingURL=hometransactions.css.map */

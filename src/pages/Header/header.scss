@@ -2,5 +2,18 @@
   color: #201f24;
   font-size: 32px;
   padding: 24px 0 32px 16px;
-  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .header {
+    color: #201f24;
+    font-size: 32px;
+    padding: 32px 0 32px 16px;
+  }
+}
+@media (min-width: 1440px) {
+  .header {
+    color: #201f24;
+    font-size: 32px;
+    padding: 40px 0 32px 16px;
+  }
 }

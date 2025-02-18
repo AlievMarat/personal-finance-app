@@ -65,3 +65,14 @@
     }
   }
 }
+@media (min-width: 1440px) {
+  .home-transactions {
+    &__container {
+      padding: 32px 32px 32px;
+    }
+    &__avatar {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

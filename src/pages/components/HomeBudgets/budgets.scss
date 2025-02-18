@@ -27,3 +27,18 @@
     }
   }
 }
+@media (min-width: 1440px) {
+  .budgets {
+    background: #fff;
+    border-radius: 12px;
+    &__container {
+      padding: 32px 32px;
+    }
+    &__wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      margin: auto;
+    }
+  }
+}

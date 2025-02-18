@@ -1,0 +1,96 @@
+.footer {
+  background: #201f24;
+  padding-top: 8px;
+  border-radius: 10px 10px 0 0;
+  margin-top: 24px;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex: 1;
+    padding: 0 16px;
+  }
+  //   &__item:first-child {
+  //     padding: 8px 12px 12px 0px;
+  //   }
+  //   &__item:last-child {
+  //     padding: 8px 0px 12px 8px;
+  //   }
+  &__item {
+    padding: 8px 12px 12px 12px;
+    &--link {
+      text-decoration: none;
+      color: #b3b3b3;
+      font-weight: bold;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    background: #201f24;
+    padding-top: 8px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 32px;
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      flex: 1;
+      padding: 0 16px;
+    }
+    //   &__item:first-child {
+    //     padding: 8px 12px 12px 0px;
+    //   }
+    //   &__item:last-child {
+    //     padding: 8px 0px 12px 8px;
+    //   }
+    &__item {
+      padding: 8px 12px 12px 12px;
+      &--link {
+        text-decoration: none;
+        color: #b3b3b3;
+        font-weight: bold;
+      }
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .footer {
+    background: #201f24;
+    padding-top: 8px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 0;
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 300px;
+    flex: 1;
+    &__logo {
+      margin: 40px auto 40px 32px;
+      display: block;
+      width: 121px;
+      height: 22px;
+    }
+    &__list {
+      display: inline-flex;
+      justify-content: space-between;
+      list-style-type: none;
+      flex-direction: column;
+      flex: 1;
+      padding: 0 16px;
+    }
+    //   &__item:first-child {
+    //     padding: 8px 12px 12px 0px;
+    //   }
+    //   &__item:last-child {
+    //     padding: 8px 0px 12px 8px;
+    //   }
+    &__item {
+      padding: 8px 12px 12px 12px;
+      &--link {
+        text-decoration: none;
+        color: #b3b3b3;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -3,7 +3,6 @@ import { HomePots } from "../../components/HomePots/HomePots";
 import { HomeTransactions } from "../../components/HomeTransactions/HomeTransactions";
 import HomeBudgets from "../HomeBudgets/HomeBudgets";
 import { HomeRecurringBills } from "../HomeRecurringBills/HomeRecurringBills";
-import Footer from "../Footer/Footer";
 import "./homeMain.css";
 export function HomeMain() {
   return (
@@ -12,7 +11,6 @@ export function HomeMain() {
       <HomeTransactions />
       <HomeBudgets />
       <HomeRecurringBills />
-      <Footer />
     </main>
   );
 }

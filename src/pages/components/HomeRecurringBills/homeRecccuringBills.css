@@ -25,4 +25,10 @@
 }
 .home-reccuring-bills .reccuring-item__total {
   font-weight: bold;
+}
+
+@media (min-width: 1440px) {
+  .home-reccuring-bills__container {
+    padding: 32px;
+  }
 }/*# sourceMappingURL=homeRecccuringBills.css.map */

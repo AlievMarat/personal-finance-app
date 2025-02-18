@@ -27,4 +27,19 @@
     flex-direction: row;
     margin: auto;
   }
+}
+@media (min-width: 1440px) {
+  .budgets {
+    background: #fff;
+    border-radius: 12px;
+  }
+  .budgets__container {
+    padding: 32px 32px;
+  }
+  .budgets__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+  }
 }/*# sourceMappingURL=budgets.css.map */

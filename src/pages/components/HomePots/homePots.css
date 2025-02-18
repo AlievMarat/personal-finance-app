@@ -42,4 +42,18 @@
     align-items: center;
     gap: 20px;
   }
+}
+@media (min-width: 1440px) {
+  .pots .total-saved {
+    margin-bottom: 0;
+    padding: 20px 89px 20px 16px;
+  }
+  .pots-container {
+    padding: 32px;
+  }
+  .pots-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=homePots.css.map */

@@ -26,3 +26,10 @@
     }
   }
 }
+@media (min-width: 1440px) {
+  .home-reccuring-bills {
+    &__container {
+      padding: 32px;
+    }
+  }
+}

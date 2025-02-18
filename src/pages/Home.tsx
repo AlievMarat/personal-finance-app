@@ -2,6 +2,7 @@ import Header from "./Header/Header";
 import { useTypedSelector } from "../customHooks/useTypedSelector";
 import { Summary } from "./components/Summary/Summary";
 import { HomeMain } from "./components/HomeMain/HomeMain";
+import Footer from "./components/Footer/Footer";
 import "./home.css";
 export function Home() {
   const { balance } = useTypedSelector((state) => state.board.data);
@@ -16,6 +17,7 @@ export function Home() {
         </section>
         <HomeMain />
       </div>
+      <Footer />
     </div>
   );
 }

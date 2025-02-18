@@ -44,3 +44,19 @@
     }
   }
 }
+@media (min-width: 1440px) {
+  .pots {
+    .total-saved {
+      margin-bottom: 0;
+      padding: 20px 89px 20px 16px;
+    }
+    &-container {
+      padding: 32px;
+    }
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

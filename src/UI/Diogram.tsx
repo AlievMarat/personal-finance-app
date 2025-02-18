@@ -22,6 +22,7 @@ export default function MyDonutChart() {
         cy="50%"
         innerRadius={81}
         outerRadius={120}
+        stroke="none"
         fill="#8884d8"
         dataKey="maximum"
         nameKey="category"
