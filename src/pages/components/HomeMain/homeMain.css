@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .home-main {
   display: flex;
   flex-direction: column;
@@ -14,27 +13,29 @@
 
 @media (min-width: 1440px) {
   .home-main > *:not(:last-child) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .home-main > *:nth-child(even):not(:last-child) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .home-main {
     display: grid;
-    align-items: stretch;
-    grid-template-areas: "pots budgets"; /* Задаем области */
-    gap: 24px; /* отступы между элементами */
+    grid-template-areas: "pots budgets";
+    grid-template-rows: masonry;
+    gap: 24px;
+    grid-auto-flow: dense;
     margin: 0;
   }
-  .home-main > * {
-    height: auto; /* Элементы будут иметь высоту, равную содержимому */
-  }
   .pots {
-    height: auto;
-    display: inline;
-    grid-area: pots; /* Назначаем область для этого элемента */
+    grid-area: pots;
   }
   .budgets {
-    grid-area: budgets; /* Назначаем область для этого элемента */
+    grid-area: budgets;
+  }
+  .pots {
+    grid-row: span 1;
+  }
+  .home-transactions {
+    grid-row: span 2;
   }
 }/*# sourceMappingURL=homeMain.css.map */
